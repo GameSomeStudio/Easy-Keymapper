@@ -1,4 +1,3 @@
-![Easy Keymapper Screenshot](icon.png)
 # Easy Keymapper
 
 **Drag & drop keyboard remapper optimized for gaming.**  
@@ -55,3 +54,5 @@ Toggle remapping ON before gaming, OFF when typing. Use `Ctrl+Shift+K` to switch
 
 ## 📸 Screenshots
 ![Easy Keymapper Screenshot](screenshot_02.jpg)
+
+![Easy Keymapper Screenshot](icon.png)
