@@ -7,7 +7,7 @@ No registry changes. No driver installation. Just run and play.
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-brightgreen.svg)
 ![Version](https://img.shields.io/badge/version-1.0.3-red.svg)
 
-## ✨ Features
+## Features
 
 - **Drag & Drop Interface** : Visually swap keys by dragging and dropping
 - **Gaming Optimized** : Remap WASD, arrow keys, action keys, and more
