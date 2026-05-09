@@ -52,6 +52,19 @@ Toggle remapping ON before gaming, OFF when typing. Use `Ctrl+Shift+K` to switch
 - **Key Hooking:** uiohook-napi
 - **Key Sending:** robotjs
 
+## ⚠️ Disclaimer
+
+**Easy Keymapper** is provided "as is", without warranty of any kind, express or implied.
+
+- **Use at your own risk.** The author is not responsible for any damage, data loss, or account bans resulting from the use of this software.
+- **Anti-cheat software compatibility:** Some games with anti-cheat systems (EAC, BattlEye, Vanguard, etc.) may flag input remapping tools as suspicious. Use only in games where key remapping is allowed by the game's terms of service.
+- **Always check the game's policies** before using any third-party input modification tools.
+- This software does **not** modify game files, memory, or network traffic. It only remaps keyboard input at the operating system level.
+- The application automatically resets all key mappings to default upon exit.
+- **No registry changes are made.** All remapping is temporary and active only while the application is running.
+
+By using Easy Keymapper, you acknowledge that you have read and understood this disclaimer.
+
 ## 📸 Screenshots
 ![Easy Keymapper Screenshot](screenshot_02.jpg)
 
