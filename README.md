@@ -53,4 +53,4 @@ Toggle remapping ON before gaming, OFF when typing. Use `Ctrl+Shift+K` to switch
 - **Key Sending:** robotjs
 
 ## 📸 Screenshots
-![Easy Keymapper Screenshot](screenshot_01.jpg)
+![Easy Keymapper Screenshot](screenshot_02.jpg)
