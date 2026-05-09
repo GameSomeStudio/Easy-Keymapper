@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy KeyMapper - Keyboard Remapper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu-bar">
+        <div class="menu-item">
+            <span class="menu-title">File</span>
+            <div class="menu-dropdown">
+                <div class="menu-option" id="menuSave">💾 Save Profile</div>
+                <div class="menu-option" id="menuLoad">📂 Load Profile</div>
+                <div class="menu-separator"></div>
+                <div class="menu-option" id="menuReset">🔄 Reset to Default</div>
+                <div class="menu-separator"></div>
+                <div class="menu-option" id="menuExit">❌ Exit</div>
+            </div>
+        </div>
+        <div class="menu-item">
+            <span class="menu-title">Help</span>
+            <div class="menu-dropdown">
+                <div class="menu-option" id="menuAbout">ℹ️ About KeyMapper</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>🎮 Easy KeyMapper</h1>
+            <p>Drag & drop keys to remap your keyboard - Optimized for gaming</p>
+        </header>
+
+        <div class="toolbar">
+            <button id="saveBtn">💾 Save Profile</button>
+            <button id="loadBtn">📂 Load Profile</button>
+            <button id="resetBtn">🔄 Reset</button>
+            <span id="status" class="status"></span>
+        </div>
+		<div class="notice">
+    <strong>⚠️ Important:</strong> This tool is designed for <u>gaming only</u>. 
+    Do not use while typing text — both original and remapped keys will be sent simultaneously in text fields.<br>
+    <strong>No registry changes are made.</strong> All remapping is temporary and works only while KeyMapper is running.
+    Keyboard resets to default automatically when you exit the application.
+    <hr style="border-color: rgba(0,212,255,0.2); margin: 8px 0;">
+    <strong>⌨️ Ctrl+Shift+K:</strong> Toggle remapping ON/OFF instantly — 
+    <span style="color: #00ff88;">ON for gaming</span>, 
+    <span style="color: #ff6b6b;">OFF for typing</span>.
+    Status appears on screen and system tray.
+</div>
+
+        <div class="keyboard-container">
+            <div id="keyboard" class="keyboard">
+                
+            </div>
+        </div>
+
+        <footer>
+            <p>GameSome © 2026 | Easy KeyMapper v1.0 - GPL 3.0</p>
+        </footer>
+    </div>
+
+    <script src="keyboard.js"></script>
+    <script src="renderer.js"></script>
+</body>
+</html>

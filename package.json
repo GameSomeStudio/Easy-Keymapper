@@ -1,0 +1,31 @@
+{
+  "name": "easy-keymapper",
+  "version": "1.0.2",
+  "description": "Drag & drop keyboard remapper for gaming - No registry changes, auto-reset on exit",
+  "main": "main.js",
+  "author": "GameSome - mabaci",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+"build": {
+  "appId": "com.gamesome.easy-keymapper",
+  "productName": "Easy Keymapper",
+  "win": {
+    "target": "nsis"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  }
+},
+  "dependencies": {
+    "robotjs": "^0.7.1",
+    "uiohook-napi": "^1.5.5"
+  },
+  "devDependencies": {
+    "electron": "^28.3.3",
+    "electron-builder": "^24.13.3"
+  }
+}
