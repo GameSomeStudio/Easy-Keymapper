@@ -16,6 +16,8 @@ No registry changes. No driver installation. Just run and play.
 - **Auto-Reset** : Keyboard returns to default when you close the app
 - **No Registry Changes** : All remapping is temporary and safe
 
+![Easy Keymapper Screenshot](screenshot_03.jpg)
+
 ## Quick Start
 
 - Drag a key onto another key to swap them
