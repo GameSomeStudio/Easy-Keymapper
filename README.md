@@ -54,6 +54,16 @@ Toggle remapping ON before gaming, OFF when typing. Use `Ctrl+Shift+K` to switch
 - **Key Hooking:** uiohook-napi
 - **Key Sending:** robotjs
 
+## 🔒 Security
+
+### VirusTotal Scan
+![VirusTotal](https://img.shields.io/badge/VirusTotal-0%2F54%20Clean-brightgreen)
+[View Full Report](https://www.virustotal.com/gui/file/d73c3ee81ce901467feb84c2f2ea2eed4f904b3a7a0622772862494f5565e336)
+
+**Result: 0/54 engines detected any threat.**
+
+*Some antivirus engines may occasionally flag keyboard remapping tools as "potentially unwanted" due to input hooking libraries. This is a false positive. All source code is available for review on this repository.*
+
 ## ⚠️ Disclaimer
 
 **Easy Keymapper** is provided "as is", without warranty of any kind, express or implied.
